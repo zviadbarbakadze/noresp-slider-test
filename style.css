@@ -1,0 +1,177 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+   padding-inline:100px;
+ 
+}
+.container{
+
+    display: flex;
+    margin-top: 50px;
+    
+   
+}
+.right{
+    position: relative;
+}
+.tanya{
+    position: absolute;
+    top:10%;
+    left:10%;
+    height: 400px;
+    box-shadow: 5px 10px 5px hsl(240, 18%, 77%);
+    border-radius: 5px;
+    
+}
+.john{
+    position: absolute;
+    top:10%;
+    left:10%;
+    height: 400px;
+    box-shadow: 5px 10px 5px hsl(240, 18%, 77%);
+    border-radius: 5px;
+    
+}
+.left{
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    width:600px;
+    justify-content: space-around;
+    align-items: center;
+}
+.wtf4{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.text{
+   
+    font-size: 32px;
+    width: 600px;
+    position: absolute;
+    top:30%;
+    left:20%;
+    z-index: 1;
+}
+.text2{
+    
+     font-size: 32px;
+     width: 600px;
+     position: absolute;
+     top:30%;
+     left:20%;
+     z-index: 1;
+ }
+.author{
+ 
+    font-size: 20px;
+    position: absolute;
+    top:80%;
+    left:20%;
+}
+.author2{
+    display: none;
+    font-size: 20px;
+    
+    position: absolute;
+    top:80%;
+    left:20%;
+    }
+    
+.wtf3{
+ width:500px;
+}
+.buttons{
+    background-color:white;
+    border-radius: 20px;
+    width:80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    position: absolute;
+    left:20%;
+    bottom: 2%;
+}
+.prev{
+    height: 20px;
+    cursor: pointer;
+}
+.next{
+    height: 20px;
+    cursor: pointer;
+}
+.john{
+    display: none;
+}
+.text2{
+    display: none;
+}
+.wtf5{
+    position: absolute;
+    top:20%
+}
+@media(max-width:1100px){
+    .container{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+
+    }
+    .left{
+        height:400px;
+       
+
+    }
+    .text{
+        max-width: 80%;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+      
+    }
+    .wtf4{
+        display: none;
+    }
+    .author{
+        bottom:0;
+       
+    }
+    .wtf5{
+        display: none;
+    }
+}
+@media(max-width:600px){
+    .container{
+        max-width: 500px;
+    }
+    .left{
+        max-width: 500px;
+
+    }
+    .rigth{
+        max-width: 500px;
+    }
+    .text{
+        max-width: 80%;
+        position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+    }
+  
+   
+}
